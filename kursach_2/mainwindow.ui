@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>991</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_data_about_patient">
+      <property name="text">
+       <string>Данные пациента</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_agreement">
+      <property name="text">
+       <string>Даю согласие на обработку данных</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_surname">
+          <property name="text">
+           <string>Фамилия</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_name">
+          <property name="text">
+           <string>Имя</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_patronomic">
+          <property name="text">
+           <string>Отчество</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_surname"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_name"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_patronomic"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="QLabel" name="label_sex">
+          <property name="text">
+           <string>Пол</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_male">
+          <property name="text">
+           <string>M</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_female">
+          <property name="text">
+           <string>Ж</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_date_of_birth">
+        <property name="text">
+         <string>Дата рождения:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEdit_date_of_birth"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_pasport">
+          <property name="text">
+           <string>Паспортные данные:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_snils">
+          <property name="text">
+           <string>Снилс</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_strax_polus">
+          <property name="text">
+           <string>Номер страхового полюса</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_passport"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_snils"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_srax_polus"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_telefon">
+        <property name="text">
+         <string>Контактный телефон</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_telefon"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_clock">
+          <property name="text">
+           <string>Время записи</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTimeEdit" name="timeEdit_clock"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_date_recording">
+          <property name="text">
+           <string>Дата записи</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="dateEdit_date_recording"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_doctor">
+          <property name="text">
+           <string>Врач</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_doctor">
+          <item>
+           <property name="text">
+            <string>Хирург</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Стоматолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Педиатр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ортолоринголог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Окулист</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дермотолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Психиатор</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Нервапотолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Кардиолог</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Нарколог</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_zapisatsa">
+      <property name="text">
+       <string>Записаться</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>991</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

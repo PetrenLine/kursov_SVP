@@ -43,18 +43,20 @@ bool MainWindow::check_all(QString surname, QString name, QString patronymic, QS
         }
     }
     for(QChar item : pas_num){
-        if(item ==  ' '){
-            break;
-        } else if(!item.isDigit() ){
+//        if(item ==  ' '){
+//            break;
+//        } else
+            if(!item.isDigit() ){
             QMessageBox::critical(this, "Ошибка", "В строке паспортные данные присувует буква");
             return false;
         }
     }
 
     for(QChar item : snils){
-        if(item == '-'){
-            break;
-        } else if(!item.isDigit()){
+//        if(item == '-'){
+//            break;
+//        } else
+            if(!item.isDigit()){
             QMessageBox::critical(this, "Ошибка", "В строке снилс присувует буква");
             return false;
         }

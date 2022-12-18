@@ -56,7 +56,7 @@ void Form_ticket::on_pushButton_print_clicked()
         qDebug() << "Файл открыт";
         out << "Номер талона: " << ui->label_num_ticket->text() << "\n";
         out << "Фамилия: " << "Имя: " << "Отчество: " << "Дата рождения: " << "Пол пациента: " << "\n";
-        out << ui->label_surname->text() << ui->label_name->text() << ui->label_patronymic->text() << ui->label_date_birth->text() << ui->label_sex->text() << "\n";
+        out << ui->label_surname->text() << " " << ui->label_name->text()  << " " << ui->label_patronymic->text()  << " " << ui->label_date_birth->text()  << " "  << ui->label_sex->text() << "\n";
         out << "Контактный телефон: " << "Время записи: " << "Дата записи: " << "\n";
         out << ui->label_tel_num->text() << ui->label_time->text() << ui->label_date->text() << "\n";
         out << "Вы записаны к врачу: " << ui->label_doctor->text() << "\n";

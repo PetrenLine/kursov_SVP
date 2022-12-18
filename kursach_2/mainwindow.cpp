@@ -52,8 +52,10 @@ bool MainWindow::check_all(QString surname, QString name, QString patronymic, QS
     }
 
     for(QChar item : snils){
-        if(!item.isDigit()){
-            QMessageBox::critical(this, "Ошибка", "В строке снил присувует буква");
+        if(item == '-'){
+            break;
+        } else if(!item.isDigit()){
+            QMessageBox::critical(this, "Ошибка", "В строке снилс присувует буква");
             return false;
         }
     }

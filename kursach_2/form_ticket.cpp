@@ -47,7 +47,7 @@ void Form_ticket::on_pushButton_clicked()
 
 void Form_ticket::on_pushButton_print_clicked()
 {
-    QString path = "E:\\kyrsach_vizualka\\kursach_2\\Talon.txt";
+    QString path = "Talon.txt";
 
     QFile file(path);
     QTextStream out(&file);

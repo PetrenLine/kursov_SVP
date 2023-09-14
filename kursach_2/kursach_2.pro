@@ -13,6 +13,8 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     ticket.cpp
+    .gitignore
+    .astylerc
 
 HEADERS += \
     form_ticket.h \
@@ -27,3 +29,4 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+

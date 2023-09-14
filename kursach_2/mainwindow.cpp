@@ -84,8 +84,12 @@ bool MainWindow::check_all(QString surname, QString name, QString patronymic, QS
     return false;
     } else if(tel_number.isEmpty()){
     QMessageBox::critical(this, "Ошибка", "Заполните поле контактный телефон");
-    return false;
-    } else {
+    return
+            false;
+    }
+
+    else
+    {
         return true;
     }
 

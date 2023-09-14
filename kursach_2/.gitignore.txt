@@ -1,2 +1,1 @@
-"Talon.txt"
-test1.txt
+.txt
